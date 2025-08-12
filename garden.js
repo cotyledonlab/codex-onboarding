@@ -43,7 +43,7 @@ function drawRake(a, b) {
   ctx.lineWidth = 1;
   ctx.lineCap = 'round';
   const spacing = 5;
-  const teeth = 5;
+  const teeth = NUM_RAKE_TEETH;
   for (let t = -(teeth - 1) / 2; t <= (teeth - 1) / 2; t++) {
     const offsetX = perpX * spacing * t;
     const offsetY = perpY * spacing * t;
